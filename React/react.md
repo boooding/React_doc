@@ -46,6 +46,52 @@ ReactArt渲染器，(canvas SVG)
 
 ### Fiber架构
 
-践行代数效应：讲副作用从函数调用中分离
+践行代数效应：将副作用从函数调用中分离 (hooks)
+
+中断-恢复
+
+Fiber(纤程)
+
+- 进程( Process)
+- 线程(Thread)
+- 协程(Coroutine) Generator 
+
+1. generator有传染性
+
+2. 更新可以中断恢复，并且拥有优先级
+
+   #### Fiber架构工作原理
+
+   Fiber含义：
+
+   1. 架构上，
+      1. stack-reconciler: React15 Reconciler采用递归来执行，数据保存在递归的调用栈中。
+      2. 基于fiber实现
+   2. 静态数据结构 （虚拟DOM）
+      1. ReactDOM.render() => FiberRootNode-RootFiber
+   3. 动态工作单元
+
+   双缓存
 
 # React实现
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
