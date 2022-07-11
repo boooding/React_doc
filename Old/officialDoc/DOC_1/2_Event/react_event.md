@@ -25,7 +25,7 @@ clickHandler = evernt => {
 onClick={this.clickHandler.bind(this, arg1, arg2)}
 ```
 
-![EventCompare_Reat16_17](./EventCompare_Reat16_17.png)
+![EventCompare_Reat16_17](EventCompare_Reat16_17.png)
 
 ## Event arg.
 
