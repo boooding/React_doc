@@ -1,3 +1,0 @@
-## blog
-
-serverless - react
